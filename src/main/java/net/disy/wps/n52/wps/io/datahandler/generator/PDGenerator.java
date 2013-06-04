@@ -94,10 +94,6 @@ public class PDGenerator extends AbstractGenerator {
 			return;
 		}
 		
-		/*
-		 * TODO: StyledFeatureCollectionType
-		 * Warum gibt es die Klasse 'StyledFeatureCollection' nicht?
-		 */
 		if (pdColl instanceof StyledFeatureCollectionType) {
 			StyledFeatureCollectionType sfct = (StyledFeatureCollectionType) pdColl;
 			m.marshal(objectFactory.createStyledFeatureCollection(sfct), os);
