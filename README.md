@@ -30,6 +30,8 @@ Example:
 ## Usage
 Once the generators are registered, you can use PD-Elements as outputs of algorithms. The following code-sample shows an extract of an AbstractAnnotatedAlgorithm.
 ```java
+import net.disy.ogc.wpspd.v_1_0_0.ViewportType;
+
 private ViewportType outputPDViewport;
 
 @ComplexDataOutput(identifier ="PDViewport", binding = PDViewportBinding.class)
