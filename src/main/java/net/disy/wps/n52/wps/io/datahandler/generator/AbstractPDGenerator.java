@@ -34,11 +34,11 @@ import net.disy.ogc.wpspd.v_1_0_0.WpspdUtils;
 import org.n52.wps.io.data.IData;
 import org.n52.wps.io.datahandler.generator.AbstractGenerator;
 
-public class PDGenerator extends AbstractGenerator {
+public abstract class AbstractPDGenerator extends AbstractGenerator {
 
 	private final ObjectFactory objectFactory = WpspdUtils.createObjectFactory();
 	
-	public PDGenerator() {
+	public AbstractPDGenerator() {
 		super();
 	}
 
