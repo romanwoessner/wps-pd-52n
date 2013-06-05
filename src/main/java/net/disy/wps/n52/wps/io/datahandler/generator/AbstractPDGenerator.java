@@ -63,38 +63,38 @@ public abstract class AbstractPDGenerator extends AbstractGenerator {
 			m.marshal(link, os);
 			return;
 		}
-		if (pdColl instanceof MessageType) {
+		else if (pdColl instanceof MessageType) {
 			MessageType mt = (MessageType) pdColl;
 			Message msg = objectFactory.createMessage(mt);
 			m.marshal(msg, os);
 			return;
 		}
-		if (pdColl instanceof ViewportType) {
+		else if (pdColl instanceof ViewportType) {
 			ViewportType vpt = (ViewportType) pdColl;
 			Viewport vp = objectFactory.createViewport(vpt);
 			m.marshal(vp, os);
 			return;
 		}
-		if (pdColl instanceof MarkerType) {
+		else if (pdColl instanceof MarkerType) {
 			MarkerType mkt = (MarkerType) pdColl;
 			Marker mk = objectFactory.createMarker(mkt);
 			m.marshal(mk, os);
 			return;
 		}
-		if (pdColl instanceof GeometryType) {
+		else if (pdColl instanceof GeometryType) {
 			GeometryType geomt = (GeometryType) pdColl;
 			Geometry geom = objectFactory.createGeometry(geomt);
 			m.marshal(geom, os);
 			return;
 		}
-		if (pdColl instanceof GroupType) {
+		else if (pdColl instanceof GroupType) {
 			GroupType groupt = (GroupType) pdColl;
 			Group group = objectFactory.createGroup(groupt);
 			m.marshal(group, os);
 			return;
 		}
 		
-		if (pdColl instanceof StyledFeatureCollectionType) {
+		else if (pdColl instanceof StyledFeatureCollectionType) {
 			StyledFeatureCollectionType sfct = (StyledFeatureCollectionType) pdColl;
 			m.marshal(objectFactory.createStyledFeatureCollection(sfct), os);
 			return;
