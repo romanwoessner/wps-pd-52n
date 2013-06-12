@@ -1,6 +1,6 @@
-package net.disy.wps.n52.wps.io.datahandler.generator;
+package net.disy.wps.n52.generator;
 
-import net.disy.wps.n52.wps.io.data.binding.complex.PDLinkBinding;
+import net.disy.wps.n52.binding.PDLinkBinding;
 
 /**
  * Generates a PD-Link Element and holds a PDLinkBinding

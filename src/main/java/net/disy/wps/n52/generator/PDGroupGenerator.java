@@ -1,6 +1,6 @@
-package net.disy.wps.n52.wps.io.datahandler.generator;
+package net.disy.wps.n52.generator;
 
-import net.disy.wps.n52.wps.io.data.binding.complex.PDGroupBinding;
+import net.disy.wps.n52.binding.PDGroupBinding;
 
 /**
  * Generates a PD-Group Element and holds a PDGroupBinding

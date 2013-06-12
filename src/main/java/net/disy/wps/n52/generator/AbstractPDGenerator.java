@@ -1,4 +1,4 @@
-package net.disy.wps.n52.wps.io.datahandler.generator;
+package net.disy.wps.n52.generator;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -1,4 +1,4 @@
-package net.disy.wps.n52.wps.io.data.binding.complex;
+package net.disy.wps.n52.binding;
 
 import net.disy.ogc.wpspd.v_1_0_0.GeometryType;
 

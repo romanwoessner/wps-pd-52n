@@ -1,6 +1,6 @@
-package net.disy.wps.n52.wps.io.datahandler.generator;
+package net.disy.wps.n52.generator;
 
-import net.disy.wps.n52.wps.io.data.binding.complex.PDStyledFeatureCollectionBinding;
+import net.disy.wps.n52.binding.PDStyledFeatureCollectionBinding;
 
 /**
  * Generates a PD-StyledFeatureCollection Element and holds a PDStyledFeatureCollectionBinding

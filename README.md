@@ -19,7 +19,7 @@ Use the appropriate schema according to [disy WPS-PD](https://www.legato.net/dis
 Example:
 ```xml
 <Generator name="PDViewportGenerator"
-    className="net.disy.wps.n52.wps.io.datahandler.generator.PDViewportGenerator"
+    className="net.disy.wps.n52.generator.PDViewportGenerator"
     active="true">
     <Format mimetype="text/xml"
         encoding="default"
@@ -34,8 +34,11 @@ import net.disy.ogc.wpspd.v_1_0_0.ViewportType;
 
 private ViewportType outputPDViewport;
 
-@ComplexDataOutput(identifier ="PDViewport", binding = PDViewportBinding.class)
-    public ViewportType getPDViewport() {
-    	return this.outputPDViewport;
-    }
+@ComplexDataOutput(
+    identifier ="PDViewport", title = "pd:Viewport output",
+    abstrakt="This is a dummy pd:Viewport", binding = PDViewportBinding.class)
+public ViewportType getPDViewport() {
+    return this.outputPDViewport;
+}
 ```
+See the example algorithm PDViewportDummy.java for detailed information on how to create a pd-object and assign it as an algorithms complex output.

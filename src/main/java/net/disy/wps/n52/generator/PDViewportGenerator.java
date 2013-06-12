@@ -1,6 +1,6 @@
-package net.disy.wps.n52.wps.io.datahandler.generator;
+package net.disy.wps.n52.generator;
 
-import net.disy.wps.n52.wps.io.data.binding.complex.PDViewportBinding;
+import net.disy.wps.n52.binding.PDViewportBinding;
 
 /**
  * Generates a PD-Viewport Element and holds a PDViewportBinding
