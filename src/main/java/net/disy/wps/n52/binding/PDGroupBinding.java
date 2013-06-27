@@ -22,4 +22,9 @@ public class PDGroupBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return GroupType.class;
 	}
+
+	@Override
+	public void dispose() {
+		
+	}
 }

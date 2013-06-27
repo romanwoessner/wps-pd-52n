@@ -22,4 +22,9 @@ public class PDLinkBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return LinkType.class;
 	}
+
+	@Override
+	public void dispose() {
+
+	}
 }

@@ -22,4 +22,9 @@ public class PDStyledFeatureCollectionBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return StyledFeatureCollectionType.class;
 	}
+	
+	@Override
+	public void dispose() {
+		
+	}
 }

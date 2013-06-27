@@ -22,4 +22,9 @@ public class PDMessageBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return MessageType.class;
 	}
+	
+	@Override
+	public void dispose() {
+		
+	}
 }

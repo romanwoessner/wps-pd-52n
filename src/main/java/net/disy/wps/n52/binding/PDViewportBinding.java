@@ -22,4 +22,9 @@ public class PDViewportBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return ViewportType.class;
 	}
+	
+	@Override
+	public void dispose() {
+		
+	}
 }

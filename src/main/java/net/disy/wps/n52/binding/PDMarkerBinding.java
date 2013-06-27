@@ -22,4 +22,9 @@ public class PDMarkerBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return MarkerType.class;
 	}
+
+	@Override
+	public void dispose() {
+		
+	}
 }

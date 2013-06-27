@@ -22,4 +22,10 @@ public class PDGeometryBinding implements IComplexData{
 	public Class<?> getSupportedClass() {
 		return GeometryType.class;
 	}
+
+	@Override
+	public void dispose() {
+		// TODO Auto-generated method stub
+		
+	}
 }
